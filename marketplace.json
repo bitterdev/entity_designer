@@ -1,0 +1,17 @@
+{
+  "title": "Entity Designer",
+  "supportHostedOffsite": true,
+  "supportHostedOffsiteUrl": "https://www.bitter.de/support",
+  "singlePrice": 150,
+  "skillLevel": "Expert",
+  "keywords": "entity, entities, entity designer, designer, database, db, design, form, doctrine, generator, code, coding, generate, list view, list, view, detail view, detail, productivity, fabianbitter, block, blocks, block type, designer, creator, auto, automatic, automatically, generated",
+  "shortDescription": "Create Doctrine-Entities easily in your concrete5 Dashboard. The code for entity, controller, detail view and list view is generated automatically.",
+  "categories": [16, 1273, 50],
+  "supportPlan": 12,
+  "screenshots": [
+      "https://bitter.de/public/5916/0727/4341/1.jpg",
+      "https://bitter.de/public/5816/0727/4341/2.jpg",
+      "https://bitter.de/public/6816/0727/4343/3.jpg",
+      "https://bitter.de/public/2616/0727/4343/4.jpg"
+  ],
+}

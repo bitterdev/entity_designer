@@ -1,0 +1,7 @@
+{
+  "name": "entity_designer",
+  "dependencies": {
+    "tag-it": "*",
+    "jquery-ui": "*"
+  }
+}

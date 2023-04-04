@@ -1,0 +1,675 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: entity_designer 1.5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-16T12:06:27+02:00\n"
+"PO-Revision-Date: 2020-05-16 12:08+0200\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: packages/entity_designer/controller.php:33
+msgid "Create Doctrine-Entities easily in your concrete5 Dashboard. The code for entity, controller, detail view and list view is generated automatically."
+msgstr "Erstellen Sie Doctrine-Entities spielend einfach in Ihrem concrete5 Dashboard. Der Code für Entity, Controller, Detailansicht, sowie Listenansicht wird automatisch generiert."
+
+#: packages/entity_designer/controller.php:38
+msgid "Entity Designer"
+msgstr "Entity Designer"
+
+#: packages/entity_designer/controller.php:70
+#, php-format
+msgid "The directory \"%s\" needs to be writable."
+msgstr "Das Verzeichnis „%s“ muss schreibbar sind."
+
+#: packages/entity_designer/controller.php:102
+msgid "Access Entity Designer"
+msgstr "Zugriff auf Entity-Designer"
+
+#: packages/entity_designer/controller.php:107
+msgid "Insert Rows"
+msgstr "Zeile einfügen"
+
+#: packages/entity_designer/controller.php:112
+msgid "Add Packages"
+msgstr "Paket hinzufügen"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:36
+msgid "General settings"
+msgstr "Allgemeine Einstellungen"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:42
+#: packages/entity_designer/single_pages/dashboard/entity_designer.php:37
+#: packages/entity_designer/views/dialogs/entity_designer/add_package.php:35
+msgid "Name"
+msgstr "Name"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:45
+msgid "Enter a name for the entity you want to create. While typing in the name the handle field will be automatically filled too."
+msgstr "Bitte geben Sie einen Namen für die Entität ein die Sie erstellen wollen. Während Sie den Namen ausfüllen wird der Bezeichnet automatisch mitausgefüllt."
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:50
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:75
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:149
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:126
+#: packages/entity_designer/views/dialogs/entity_designer/add_package.php:43
+#: packages/entity_designer/views/dialogs/entity_designer/add_package.php:66
+#: packages/entity_designer/views/dialogs/entity_designer/add_package.php:89
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:77
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:101
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:125
+msgid "Required"
+msgstr "Benötigt"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:67
+#: packages/entity_designer/views/dialogs/entity_designer/add_package.php:58
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:117
+msgid "Handle"
+msgstr "Bezeichner"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:70
+#: packages/entity_designer/views/dialogs/entity_designer/add_package.php:61
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:120
+msgid "The handle must begin with a letter of the alphabet. After the first initial letter the handle can contain a underscore and letters."
+msgstr "Das Handle muss mit einem Buchstaben des Alphabets beginnen. Nach dem ersten Anfangsbuchstaben kann das Handle einen Unterstrich und weitere Buchstaben enthalten."
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:91
+msgid "Package"
+msgstr "Paket"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:94
+msgid "If you want to create the entity within a package you can selected the destination package here."
+msgstr "Wenn Sie die Entität innerhalb eines Pakets erstellen möchten, können Sie das Zielpaket hier auswählen."
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:110
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:674
+msgid "Create Package"
+msgstr "Erstelle Paket"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:116
+msgid "If you want to generate the entity within a package please be aware that the install code for this entity will be injected in the package controller. In this process the code formatting of the package controller get lost."
+msgstr "Wenn Sie die Entität innerhalb eines Pakets generieren möchten, beachten Sie bitte, dass der Installationscode für diese Entität in den Paketcontroller eingefügt wird. Dabei geht die Codeformatierung des Paketcontrollers verloren."
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:123
+msgid "Parent Page"
+msgstr "Elternseite"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:126
+msgid "Select the parent page for this entity."
+msgstr "Wählen Sie eine Elternseite für die Entität."
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:141
+msgid "Display Value"
+msgstr "Wert anzeigen"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:144
+msgid "Here you can define the display value for the entity. This value will be used when this entity is associated with another entity as identification string. You can use all text or number fields of the entity by auto complete mixed with custom content."
+msgstr "Hier können Sie den Anzeigewert für die Entität definieren. Dieser Wert wird als Identifikationszeichenfolge verwendet, wenn diese Entität einer anderen Entität zugeordnet ist. Sie können alle Text- oder Zahlenfelder der Entität verwenden, indem Sie via Autovervollständigung die Feldnamen eintragen gemischt mit eigenem Inhalt."
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:169
+msgid "List View"
+msgstr "Listenansicht"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:175
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:200
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:207
+msgid "Help text"
+msgstr "Hilfstext"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:178
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:203
+msgid "Here you can enter a help text for the entire view. The help text will be shown in a blue box in the page header."
+msgstr "Hier können Sie den Hilfstext für die gesamte Ansicht festlegen. Der Hilfstext wird im Kopfbereich in einer blauen Box angezeigt."
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:194
+msgid "Detail View"
+msgstr "Detailansicht"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:219
+msgid "Fields"
+msgstr "Felder"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:223
+msgid "Click the »Add Field« button in the header to start creating fields."
+msgstr "Klicken Sie auf »Feld hinzufügen« im Kopfbereich um Felder hinzufügen."
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:230
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:93
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:489
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:251
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:304
+msgid "Edit field"
+msgstr "Feld bearbeiten"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:256
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:309
+msgid "Remove field"
+msgstr "Feld entfernen"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:270
+msgid "Back"
+msgstr "Zurück"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:275
+#: packages/entity_designer/views/dialogs/entity_designer/add_package.php:107
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:560
+msgid "Save"
+msgstr "Speichern"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:340
+msgid "If you confirm this dialog all files and the database schema will be regenerated and all manual code changes within the generated files get lost. Furthermore all generated blocks from this entity that are added in the frontend of the site will be removed and the current database schema including data will be removed. Are you sure that you want to proceed?"
+msgstr "Wenn Sie dieses Dialogfeld bestätigen, werden alle Dateien und das Datenbankschema neu generiert, und alle manuellen Codeänderungen innerhalb der generierten Dateien gehen verloren. Darüber hinaus werden alle generierten Blöcke dieser Entität die im Frontend der Seite hinzugefügt wurden entfernt und das aktuelle Datenbankschema einschließlich aller Daten werden ebenfalls entfernt. Möchten Sie wirklich fortfahren?"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:345
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:412
+#: packages/entity_designer/single_pages/dashboard/entity_designer.php:86
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:660
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:698
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:382
+msgid "Edit Field"
+msgstr "Feld bearbeiten"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:398
+#: packages/entity_designer/single_pages/dashboard/entity_designer.php:81
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:645
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:683
+msgid "Are you sure?"
+msgstr "Sind Sie sicher?"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer/edit.php:689
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:123
+msgid "Add Field"
+msgstr "Feld hinzufügen"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer.php:30
+msgid "Currently there are no entities. Click the »Add Entity« button in the header to create one."
+msgstr "Aktuell gibt es noch keine Entitäten. Klicken Sie auf die Schaltfläche »Entität hinzufügen« im Kopfbereich um eine Entität hinzuzufügen."
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer.php:57
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: packages/entity_designer/single_pages/dashboard/entity_designer.php:62
+msgid "Remove"
+msgstr "Entfernen"
+
+#: packages/entity_designer/elements/dashboard/did_you_know.php:95
+msgid "Did you know?"
+msgstr "Sind Sie sicher?"
+
+#: packages/entity_designer/elements/dashboard/did_you_know.php:104
+#: packages/entity_designer/elements/dashboard/did_you_know.php:134
+#: packages/entity_designer/elements/dashboard/help.php:22
+#: packages/entity_designer/elements/dashboard/reminder.php:33
+msgid "here"
+msgstr "hier"
+
+#: packages/entity_designer/elements/dashboard/did_you_know.php:101
+#, php-format
+msgid "I have many other add-ons to power up your site. Maybe the following add-on sounds interesting to you? If you want to see a full list with all of my add-ons, please click %s. As an existing customer you will get 10%% discount on your next purchase."
+msgstr "Ich habe viele andere Erweiterungen um Ihre Seite zu verbessern. Vielleicht klingt die folgende Erweiterung interessant für Sie? Wenn Sie eine vollständige Liste mit all meinen Erweiterungen ansehen möchten, klicken Sie bitte auf %s. Als bestehender Kunde erhalten Sie 10 %% Rabatt auf Ihren nächsten Einkauf."
+
+#: packages/entity_designer/elements/dashboard/did_you_know.php:119
+msgid "Details"
+msgstr "Details"
+
+#: packages/entity_designer/elements/dashboard/did_you_know.php:134
+#, php-format
+msgid "Click %s to hide."
+msgstr "Klicken Sie %s zum verstecken."
+
+#: packages/entity_designer/elements/dashboard/help.php:19
+#, php-format
+msgid "If you need support please click %s."
+msgstr "Wenn Sie Support benötigen klicken Sie %s."
+
+#: packages/entity_designer/elements/dashboard/install_post.php:23
+msgid "Thank You for purchasing this add-on!"
+msgstr "Vielen Dank für den Kauf dieser Erweiterung!"
+
+#: packages/entity_designer/elements/dashboard/install_post.php:27
+msgid "Follow me on Twitter and Facebook to get the latest news and notifications about updates, new add-ons/themes and special offers."
+msgstr "Folgen Sie mir auf Twitter und Facebook um Neuigkeiten zu erhalten über Updates, neue Erweiterungen, Themes und Sonderangebote."
+
+#: packages/entity_designer/elements/dashboard/install_post.php:36
+msgid "Follow @fabian_bitter"
+msgstr "Folge @fabian_bitter"
+
+#: packages/entity_designer/elements/dashboard/license_check.php:35
+msgid "You have not connected your site to the Marketplace. To benefit from updates, connect your site to the Marketplace and assign the purchased licenses."
+msgstr "Sie haben Ihre Seite nicht mit dem Marketplace verbunden. Um von Updates profitieren zu können, verbinden Sie Ihre Seite mit dem Marketplace und weisen Sie die gekaufte Lizenz zu."
+
+#: packages/entity_designer/elements/dashboard/reminder.php:30
+#, php-format
+msgid "Rate this add-on on concrete5.org and as a thank-you gift you can choose another add-on of mine up to $35. This offer may only be claimed once. Click %s to rate now."
+msgstr "Bewerten Sie diese Erweiterung auf concrete5.org und als Dankeschön dürfen Sie sich eine weitere Erweiterungen von mir im Wert von $35 raussuchen. Dieses Angebot darf nur einmal beansprucht werden. Klicken Sie %s um jetzt eine Bewertung abzugeben."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:101
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:125
+msgid "** None"
+msgstr "** Keine"
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:315
+#: packages/entity_designer/controllers/dialog/entity_designer/add_package.php:70
+msgid "You need to enter a name."
+msgstr "Sie müssen einen Namen angeben."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:319
+#: packages/entity_designer/controllers/dialog/entity_designer/add_package.php:74
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:199
+msgid "You need to enter a handle."
+msgstr "Bitte geben Sie einen Bezeichner ein."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:323
+msgid "You need to enter a display value."
+msgstr "Sie müssen einen Anzeigewert eingeben."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:328
+msgid "You need to select a parent page."
+msgstr "Sie müssen eine Elternseite auswählen."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:334
+#: packages/entity_designer/controllers/dialog/entity_designer/add_package.php:78
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:205
+msgid "The given handle is already in use."
+msgstr "The angegeben Bezeichner ist bereits in Verwendung."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:341
+msgid "You need to create at least one field."
+msgstr "Sie müssen mindestens ein Feld erstellen."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:352
+msgid "At least one field needs to be displayed in the list view."
+msgstr "Mindestens ein Feld muss in der Listenansicht angezeigt werden."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:372
+msgid "All associated entities needs to be in the same directory."
+msgstr "Alle zugeordneten Entitäten müssen sich im selben Verzeichnis befinden."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:391
+msgid "This entity must be in the same directory like all entities that are associated with this entity."
+msgstr "Diese Entität muss sich im selben Verzeichnis wie alle Entitäten befinden, die dieser Entität zugeordnet sind."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:436
+msgid "The entity has been successfully removed."
+msgstr "Die Entität wurde erfolgreich entfernt."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:445
+msgid "The entity has been successfully updated."
+msgstr "Die Entität wurde erfolgreich aktualisiert."
+
+#: packages/entity_designer/controllers/single_page/dashboard/entity_designer.php:454
+msgid "Add Entity"
+msgstr "Entität hinzufügen"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/add_package.php:84
+msgid "You need to enter a description."
+msgstr "Sie müssen eine Beschreibung eingeben."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/add_package.php:94
+msgid "Package created successfully."
+msgstr "Paket erfolgreich erstellt."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:84
+msgid "File"
+msgstr "Datei"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:85
+msgid "Page"
+msgstr "Seite"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:86
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:105
+msgid "Text"
+msgstr "Text"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:87
+msgid "Email"
+msgstr "Email"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:88
+msgid "Telephone"
+msgstr "Telefon"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:89
+msgid "Password"
+msgstr "Passwort"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:90
+msgid "Web address"
+msgstr "Webadresse"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:91
+msgid "Textarea"
+msgstr "Textbereich"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:92
+msgid "Number"
+msgstr "Nummer"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:93
+msgid "Radio buttons"
+msgstr "Radio Buttons"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:94
+msgid "Checkbox list"
+msgstr "Checkbox Liste"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:95
+msgid "Select box"
+msgstr "Auswahlliste"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:99
+msgid "Association"
+msgstr "Verbindung"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:103
+msgid "All"
+msgstr "Alle"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:104
+msgid "Video"
+msgstr "Video"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:106
+msgid "Audio"
+msgstr "Audio"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:107
+msgid "Documents"
+msgstr "Dokumente"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:108
+msgid "App"
+msgstr "App"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:112
+msgid "One to one (1:1)"
+msgstr "Eine zu Eine (1:1)"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:113
+msgid "One to many (1:n)"
+msgstr "Eine zu Viele (1:n)"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:114
+msgid "Many to many (n:m)"
+msgstr "Viele zu Viele (n:m)"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:119
+msgid "Select from Sitemap"
+msgstr "Aus Sitemap auswählen"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:120
+msgid "Select Page"
+msgstr "Seite auswählen"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:121
+msgid "Quick Select"
+msgstr "Schnellauswahl"
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:195
+msgid "You need to enter a label."
+msgstr "Sie müssen einen Bezeichner eingeben."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:212
+msgid "You need to select a valid type."
+msgstr "Sie müssen einen gültigen Typ auswählen."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:216
+msgid "You need to select a valid validation method."
+msgstr "Sie müssen eine gültige Validierungsmethode auswählen."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:220
+msgid "You need to select a valid file type."
+msgstr "Sie müssen einen gültigen Dateityp auswählen."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:224
+msgid "You need to select a page selector style."
+msgstr "Sie müssen einen Seitenauswahlstil auswählen."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:236
+msgid "You need to select a associated entity."
+msgstr "Sie müssen eine zugeordnete Entität auswählen."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:240
+msgid "You need to select a valid association type."
+msgstr "Sie müssen einen gültigen Zuordnungstyp auswählen."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:251
+msgid "This entity already contains an association with the selected target entity."
+msgstr "Diese Entität enthält bereits eine Zuordnung zur ausgewählten Zielentität."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:260
+msgid "You need to add one option at least."
+msgstr "Sie müssen mindestens eine Option hinzufügen."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:264
+msgid "You need to enter a option value."
+msgstr "Sie müssen einen Optionswert eingeben."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:268
+msgid "You need to enter a option label."
+msgstr "Sie müssen eine Optionsbezeichnung eingeben."
+
+#: packages/entity_designer/controllers/dialog/entity_designer/edit_field.php:320
+msgid "Field updated successfully."
+msgstr "Feld wurde erfolgreich aktualisiert."
+
+#: packages/entity_designer/views/dialogs/entity_designer/add_package.php:38
+msgid "Enter a name for the package you want to create. While typing in the name the handle field will be automatically filled too."
+msgstr "Geben Sie einen Namen für das Paket ein, das Sie erstellen möchten. Bei der Eingabe des Namens wird auch das Handlefeld automatisch ausgefüllt."
+
+#: packages/entity_designer/views/dialogs/entity_designer/add_package.php:81
+msgid "Description"
+msgstr "Beschreibung"
+
+#: packages/entity_designer/views/dialogs/entity_designer/add_package.php:84
+msgid "Enter a short description for the package."
+msgstr "Geben Sie eine kurze Beschreibung für das Paket ein."
+
+#: packages/entity_designer/views/dialogs/entity_designer/add_package.php:103
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:556
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:52
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:527
+msgid "Remove option"
+msgstr "Entferne Option"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:69
+msgid "Type"
+msgstr "Typ"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:72
+msgid "Select the type of the field. Depending on the field type you can define further type associated fields."
+msgstr "Wählen Sie den Typ des Felds aus. Je nach Feldtyp können Sie weitere typbezogene Felder definieren."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:96
+msgid "Enter a label for the field you want to create. While typing in the label the handle field will be automatically filled too."
+msgstr "Geben Sie eine Beschriftung für das Feld ein, dass Sie erstellen möchten. Bei der Eingabe der Beschriftung wird auch das Bezeichner-Feld automatisch ausgefüllt."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:149
+msgid "Prefix"
+msgstr "Präfix"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:152
+msgid "Enter a value to prepend a info text to the input field. Check the input field below to see this setting it in action."
+msgstr "Geben Sie einen Wert ein, um dem Eingabefeld einen Infotext voranzustellen. Sehen Sie das Eingabefeld unten, um diese Einstellung in Aktion zu sehen."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:158
+msgid "Example Prefix"
+msgstr "Beispielpräfix"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:182
+msgid "Suffix"
+msgstr "Suffix"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:185
+msgid "Enter a value to append a info text to the input field. Check the input field below to see this setting in action."
+msgstr "Geben Sie einen Wert ein, um einen Infotext an das Eingabefeld anzuhängen. Sehen Sie das Eingabefeld unten, um diese Einstellung in Aktion zu sehen."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:199
+msgid "Example Suffix"
+msgstr "Beispiel Suffix"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:210
+msgid "Enter a value to append a help text like this to the input field."
+msgstr "Geben Sie einen Wert ein, um einen Hilfetext wie diesen an das Eingabefeld anzuhängen."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:236
+msgid "Default Value"
+msgstr "Standardwert"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:239
+msgid "Enter a default value if you want to pretend a value for the field."
+msgstr "Geben Sie einen Standardwert ein, wenn Sie einen Wert für das Feld vorgeben möchten."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:262
+msgid "Placeholder"
+msgstr "Platzhalter"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:265
+msgid "Enter a placeholder for the field."
+msgstr "Geben Sie einen Platzhalter für das Feld ein."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:287
+msgid "Maximum length"
+msgstr "Maximale Länge"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:290
+msgid "Define the maximum length for the field."
+msgstr "Definieren Sie die maximale Länge für das Feld."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:308
+msgid "Minimum value"
+msgstr "Minimalwert"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:311
+msgid "Define the minimum value for the field."
+msgstr "Definieren Sie den Mindestwert für das Feld."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:329
+msgid "Maximum value"
+msgstr "Maximalwert"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:332
+msgid "Define the maximum value for the field."
+msgstr "Definieren Sie den Maximalwert für das Feld."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:350
+msgid "Step size"
+msgstr "Schrittgröße"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:353
+msgid "Define the step size for the field."
+msgstr "Definieren Sie die Schrittgröße für das Feld."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:371
+msgid "Validation"
+msgstr "Validierung"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:374
+msgid "If you want validation for the field can select the type of validation here."
+msgstr "Wenn Sie eine Validierung für das Feld wünschen, können Sie hier den Validierungstyp auswählen."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:391
+msgid "Allowed File Type"
+msgstr "Zulässiger Dateityp"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:394
+msgid "If you want to filter certain file types in the dialog you can select the allowed file types here."
+msgstr "Wenn Sie bestimmte Dateitypen im Dialogfeld filtern möchten, können Sie hier die zulässigen Dateitypen auswählen."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:411
+msgid "Style"
+msgstr "Stil"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:414
+msgid "Please choose the style of the select page dialog."
+msgstr "Wählen Sie den Stil des Dialogfelds \"Ausgewählte Seite\"."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:431
+msgid "Associated Entity"
+msgstr "Assoziierte Entität"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:434
+msgid "Please select the destination entity for the association."
+msgstr "Wählen Sie die Zielentität für die Zuordnung aus."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:451
+msgid "Association Type"
+msgstr "Assoziationstyp"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:454
+msgid "Please select the type of the association."
+msgstr "Bitte wählen Sie den Typ der Zuordnung aus."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:474
+msgid "Options"
+msgstr "Optionen"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:478
+msgid "Click the »Add Option« button to start creating fields."
+msgstr "Klicken Sie auf die Schaltfläche »Option hinzufügen\", um mit dem Erstellen von Feldern zu beginnen."
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:485
+msgid "Value"
+msgstr "Wert"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:538
+msgid "Add Option"
+msgstr "Option hinzufügen"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:543
+msgid "Extras"
+msgstr "Extras"
+
+#: packages/entity_designer/views/dialogs/entity_designer/edit_field.php:550
+msgid "Display field in list view."
+msgstr "Feld in der Listenansicht anzeigen."
+
+#: packages/entity_designer/src/Bitter/EntityDesigner/Validator/HandleValidator.php:23
+msgid "Invalid type supplied to validator."
+msgstr "Ungültiger Typ, der dem Validator angegeben wird."
+
+#: packages/entity_designer/src/Bitter/EntityDesigner/Validator/HandleValidator.php:28
+msgid "The given handle is not valid."
+msgstr "Das angegebene Handle ist ungültig."
+
+#: packages/entity_designer/src/Bitter/EntityDesigner/Controller/HeaderController.php:131
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/DetailBlock/AddViewGenerator.php:31
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/DetailBlock/ControllerGenerator.php:31
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/DetailBlock/EditViewGenerator.php:31
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/DetailBlock/ViewGenerator.php:53
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/ListBlock/AddViewGenerator.php:31
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/ListBlock/ControllerGenerator.php:32
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/ListBlock/EditViewGenerator.php:31
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/ListBlock/ViewGenerator.php:50
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/FormBlock/AddViewGenerator.php:31
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/FormBlock/ControllerGenerator.php:51
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/FormBlock/EditViewGenerator.php:31
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/BlockType/FormBlock/ViewGenerator.php:49
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/Entity/EntityGenerator.php:76
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/Entity/OptionEntityGenerator.php:52
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/Element/HeaderElementGenerator.php:31
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/Controller/HeaderControllerGenerator.php:31
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/SinglePage/ControllerGenerator.php:51
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/SinglePage/DetailViewGenerator.php:59
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/SinglePage/ListViewGenerator.php:55
+#: packages/entity_designer/src/Bitter/EntityDesigner/Generator/Package/PackageControllerGenerator.php:91
+msgid "This file was build with the Entity Designer add-on."
+msgstr "Diese Datei wurde mit der Entity Designer Erweiterung erstellt."

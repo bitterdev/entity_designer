@@ -1,0 +1,111 @@
+Version 2.5.1
+==================================================
+- Add fixes for V9
+
+Version 2.5.0
+==================================================
+- Add Version 9 support (version 8 is no longer support)
+
+Version 2.1.1
+==================================================
+- Add new support system in help dialog
+
+Version 2.0.1
+==================================================
+- Fix with relative paths
+
+Version 2.0.0
+==================================================
+- Generate CRUD task permissions check
+- Add search provider generation
+- Add CLI command for entity generation
+- Some minor fixes and improvements
+
+Version 1.5.8
+==================================================
+- Fix issue in block type set garbage collector
+
+Version 1.5.7
+==================================================
+- Fix bug in xml creation (remove global attribute)
+- Fix bug with parent page association when generating sub pages
+
+Version 1.5.5
+==================================================
+- Add support for associations between entities (1:1, 1:n, n:m)
+- Add support for creating new packages
+- Fix update/install bug
+- Improve garbage collection
+- Improve validation (check for option values)
+- Add display value field
+
+Version 1.4.0
+==================================================
+- Improvements for javascript
+- General code improvements and code cleanup (dependency check method, architecture of generator...)
+- Added support for package generation
+
+Version 1.3.0
+==================================================
+- Improve slug generation with custom logic
+- Improve handle validation
+
+Version 1.2.2
+==================================================
+- Bugfix: Display dashboard tree even when system pages are hidden in sitemap
+- Improved garbage collector: Delete all generated tables from database when a entity is deleted
+- Improved garbage collector: Remove unused block types from database
+- Change garbage collector behaviour (remove associated blocks and drop existing tables on edit / remove entity)
+- Added german translation
+
+Version 1.1.0
+==================================================
+- Change architecture of generator classes that one generator class can return multiple files
+- Store generated files in a garbage collector table associated with the entity
+- Change the file deletion method of garbage collector (use database table as source)
+- Generate separate options tables for checkbox values
+
+Version 1.0.1
+==================================================
+- General improvements
+- Allow to set parent location for the single page
+- Improve garbage collection (remove empty directories on cleanup process)
+
+Version 1.0.0
+==================================================
+- Add generation of front end blocks (list, detail, form)
+- Use concrete alert as native js confirm replacement
+- General coding style improvements for the generated files
+
+Version 0.9.5
+==================================================
+- Add new field type page selector
+- Add new sub types for file type field (all, video, text, audio, doc, app)
+- Add help text fields for list view & detail view
+
+Version 0.9.4
+==================================================
+- Fixed wrong field mapping in edit field dialog
+- Change labeling of value field
+- Set default values also in entity
+
+Version 0.9.3
+==================================================
+- Running order of code generation process changed
+- Added updatedAt fields
+
+Version 0.9.2
+==================================================
+- add missing return statement in testForInstall() method
+
+Version 0.9.1
+==================================================
+- Clearify what the fields prefix / suffix do
+- Use single quotes for t wrapper
+- Remove the check permissions page and check the write permissions in testForInstall() method instead
+- Fix options bug
+- Changed marketplace description
+
+Version 0.9.0
+==================================================
+- Submitted to PRB
