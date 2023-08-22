@@ -75,7 +75,7 @@ module.exports = function (grunt) {
         compress: {
             main: {
                 options: {
-                    archive: 'build/' + packageName + '.zip'
+                    archive: 'release/' + packageName + '.zip'
                 },
                 files: [
                     {src: ['**'], dest: packageName, expand: true, cwd: 'dist/'}
@@ -85,16 +85,6 @@ module.exports = function (grunt) {
         clean: {
             dist: ['dist'],
             composer: ['vendor', 'composer.lock']
-        },
-        phpcsfixer: {
-            app: {
-                dir: 'dist'
-            },
-            options: {
-                bin: './vendor/friendsofphp/php-cs-fixer/php-cs-fixer',
-                usingCache: "no",
-                quiet: true
-            }
         }
     });
 
@@ -105,5 +95,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-version');
     grunt.loadNpmTasks('grunt-contrib-copy');
 
-    grunt.registerTask('default', ['clean:composer', 'composer:release:install', 'clean:dist', 'copy', 'version', 'clean:composer', 'composer:dev:install', 'phpcsfixer', 'compress:main', 'clean:dist']);
+    grunt.registerTask('default', ['clean:composer', 'composer:release:install', 'clean:dist', 'copy', 'version', 'clean:composer', 'composer:dev:install', 'compress:main', 'clean:dist']);
 };
